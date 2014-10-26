@@ -37,5 +37,11 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/overlookmotel/toposort-extended/raw/master/License"
+    }
+  ]
 }
