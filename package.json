@@ -1,0 +1,32 @@
+{
+  "name": "toposort-extended",
+  "version": "0.0.1",
+  "description": "toposort with objects",
+  "main": "./lib/",
+  "author": {
+    "name": "Overlook Motel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/overlookmotel/toposort-extended.git"
+  },
+  "bugs": {
+    "url": "https://github.com/overlookmotel/toposort-extended/issues"
+  },
+  "dependencies": {
+    "topsort": "0.2.x"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "keywords": [
+  ],
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "readmeFilename": "README.md"
+}
