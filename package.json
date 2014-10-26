@@ -21,6 +21,15 @@
     "chai": "*"
   },
   "keywords": [
+    "topological",
+    "sort",
+    "sorting",
+    "graphs",
+    "graph",
+    "dependency",
+    "list",
+    "dependencies",
+    "acyclic"
   ],
   "scripts": {
     "test": "make test"
