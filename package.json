@@ -14,7 +14,7 @@
     "url": "https://github.com/overlookmotel/toposort-extended/issues"
   },
   "dependencies": {
-    "topsort": "0.2.10"
+    "toposort": "0.2.10"
   },
   "devDependencies": {
     "mocha": "*",
