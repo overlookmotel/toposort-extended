@@ -15,3 +15,7 @@ First published to NPM
 * toposort dependency locked to v0.2.10
 * README written
 * package.json keywords
+
+## 0.1.1
+
+* Fixed bad link to toposort dependency in package.json
