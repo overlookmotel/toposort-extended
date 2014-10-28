@@ -19,3 +19,12 @@ First published to NPM
 ## 0.1.1
 
 * Fixed bad link to toposort dependency in package.json
+
+## 0.1.2
+
+* Tests
+* Minor code tidy
+* Set versions for mocha & chai dev dependencies
+* JSHint as part of tests
+* Travis integration
+* Build and dependencies status badges in README

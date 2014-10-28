@@ -1,6 +1,6 @@
 {
   "name": "toposort-extended",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "toposort with objects",
   "main": "./lib/",
   "author": {
