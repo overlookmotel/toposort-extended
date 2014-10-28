@@ -8,7 +8,10 @@ An extension of [toposort](https://github.com/marcelklehr/toposort) where the in
 
 ## Current status
 
-API is stable and no known issues.
+[![Build Status](https://secure.travis-ci.org/overlookmotel/toposort-extended.png)](http://travis-ci.org/overlookmotel/toposort-extended)
+[![Dependency Status](https://david-dm.org/overlookmotel/toposort-extended.png)](https://david-dm.org/overlookmotel/toposort-extended)
+
+API is stable and tests cover all options. No known issues.
 
 ## Usage
 
@@ -46,7 +49,7 @@ See changelog.md
 
 ## Tests
 
-None! It's so simple, it doesn't really need them.
+Use `npm test` to run the tests.
 
 ## Issues
 
