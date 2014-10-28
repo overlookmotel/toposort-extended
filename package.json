@@ -29,7 +29,8 @@
     "dependency",
     "list",
     "dependencies",
-    "acyclic"
+    "acyclic",
+    "object"
   ],
   "scripts": {
     "test": "make test"
