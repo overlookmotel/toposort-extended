@@ -17,8 +17,8 @@
     "toposort": "0.2.10"
   },
   "devDependencies": {
-    "mocha": "*",
-    "chai": "*"
+    "mocha": "2.0.x",
+    "chai": "1.9.x"
   },
   "keywords": [
     "topological",
