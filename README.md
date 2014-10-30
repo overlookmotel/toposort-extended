@@ -8,7 +8,7 @@ An extension of [toposort](https://github.com/marcelklehr/toposort) where the in
 
 ## Current status
 
-[![Build Status](https://secure.travis-ci.org/overlookmotel/toposort-extended.png)](http://travis-ci.org/overlookmotel/toposort-extended)
+[![Build Status](https://secure.travis-ci.org/overlookmotel/toposort-extended.png?branch=master)](http://travis-ci.org/overlookmotel/toposort-extended)
 [![Dependency Status](https://david-dm.org/overlookmotel/toposort-extended.png)](https://david-dm.org/overlookmotel/toposort-extended)
 
 API is stable and tests cover all options. No known issues.
