@@ -28,3 +28,7 @@ First published to NPM
 * JSHint as part of tests
 * Travis integration
 * Build and dependencies status badges in README
+
+## Next
+
+* Added `editorconfig` file
