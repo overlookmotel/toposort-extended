@@ -29,6 +29,6 @@ First published to NPM
 * Travis integration
 * Build and dependencies status badges in README
 
-## Next
+## 0.1.3
 
 * Added `editorconfig` file
