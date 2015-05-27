@@ -42,3 +42,4 @@ First published to NPM
 * Run jshint on tests
 * Disable Travis dependency cache
 * Travis runs on new container infrastructure
+* README code examples tagged as Javascript

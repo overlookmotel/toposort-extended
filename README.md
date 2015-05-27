@@ -19,14 +19,16 @@ API is stable and tests cover all options. No known issues.
 ### Main method
 #### toposort(edges)
 
-	var toposort = require('toposort-extended');
-	
-	sorted = toposort( [
-		[ { table: 'Ingredient' }, { table: 'Shop' } ],
-		[ { table: 'Food' }, { table: 'Ingredient' } ]
-	] );
-	
-	// sorted = [ { table: 'Food' }, { table: 'Ingredient' }, { table: 'Shop' } ]
+```js
+var toposort = require('toposort-extended');
+
+sorted = toposort( [
+	[ { table: 'Ingredient' }, { table: 'Shop' } ],
+	[ { table: 'Food' }, { table: 'Ingredient' } ]
+] );
+
+// sorted = [ { table: 'Food' }, { table: 'Ingredient' }, { table: 'Shop' } ]
+```
 
 Exactly the same as original [toposort](https://github.com/marcelklehr/toposort), except:
 
@@ -37,12 +39,14 @@ Exactly the same as original [toposort](https://github.com/marcelklehr/toposort)
 
 Same as `toposort(edges)` except that items which are not dependent on any other item are excluded from the returned array.
 
-	sorted = toposort.dependents( [
-		[ { table: 'Ingredient' }, { table: 'Shop' } ],
-		[ { table: 'Food' }, { table: 'Ingredient' } ]
-	] );
+```js
+sorted = toposort.dependents( [
+	[ { table: 'Ingredient' }, { table: 'Shop' } ],
+	[ { table: 'Food' }, { table: 'Ingredient' } ]
+] );
 
-	// sorted = [ { table: 'Food' }, { table: 'Ingredient' } ]
+// sorted = [ { table: 'Food' }, { table: 'Ingredient' } ]
+```
 
 ## Changelog
 
