@@ -8,8 +8,10 @@ An extension of [toposort](https://github.com/marcelklehr/toposort) where the in
 
 ## Current status
 
-[![Build Status](https://secure.travis-ci.org/overlookmotel/toposort-extended.png?branch=master)](http://travis-ci.org/overlookmotel/toposort-extended)
-[![Dependency Status](https://david-dm.org/overlookmotel/toposort-extended.png)](https://david-dm.org/overlookmotel/toposort-extended)
+[![NPM version](https://img.shields.io/npm/v/toposort-extended.svg)](https://www.npmjs.com/package/toposort-extended)
+[![Build Status](https://img.shields.io/travis/overlookmotel/toposort-extended/master.svg)](http://travis-ci.org/overlookmotel/toposort-extended)
+[![Dependency Status](https://img.shields.io/david/overlookmotel/toposort-extended.svg)](https://david-dm.org/overlookmotel/toposort-extended)
+[![Dev dependency Status](https://img.shields.io/david/dev/overlookmotel/toposort-extended.svg)](https://david-dm.org/overlookmotel/toposort-extended)
 [![Coverage Status](https://img.shields.io/coveralls/overlookmotel/toposort-extended/master.svg)](https://coveralls.io/r/overlookmotel/toposort-extended)
 
 API is stable and tests cover all options. No known issues.
