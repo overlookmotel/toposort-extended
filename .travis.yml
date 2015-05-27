@@ -19,7 +19,3 @@ matrix:
       env: COVERAGE=true
   allow_failures:
     - env: COVERAGE=true
-
-cache:
-  directories:
-    - node_modules
