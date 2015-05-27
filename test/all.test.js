@@ -9,10 +9,12 @@ var chai = require('chai'),
 	toposort = require('../lib/');
 
 // init
-
 chai.config.includeStack = true;
 
 // tests
+
+/* jshint expr: true */
+/* global describe, it */
 
 describe('toposort', function() {
 	it('sorts strings', function() {

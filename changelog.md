@@ -39,3 +39,4 @@ First published to NPM
 * Update dev dependencies
 * Travis runs tests against node 0.10 and 0.12
 * Test code coverage & Travis sends to coveralls
+* Run jshint on tests
