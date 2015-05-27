@@ -36,3 +36,4 @@ First published to NPM
 ## Next
 
 * Remove all trailing whitespace
+* Update dev dependencies
