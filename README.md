@@ -61,3 +61,12 @@ Use `npm test` to run the tests. Use `npm run cover` to check coverage.
 ## Issues
 
 If you discover a bug, please raise an issue on Github. https://github.com/overlookmotel/toposort-extended/issues
+
+## Contribution
+
+Pull requests are very welcome. Please:
+
+* ensure all tests pass before submitting PR
+* add an entry to changelog
+* add tests for new features
+* document new functionality/API additions in README

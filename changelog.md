@@ -44,3 +44,4 @@ First published to NPM
 * Travis runs on new container infrastructure
 * README code examples tagged as Javascript
 * Update README badges to use shields.io
+* README contribution section
