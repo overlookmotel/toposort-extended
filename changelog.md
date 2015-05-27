@@ -33,7 +33,7 @@ First published to NPM
 
 * Added `editorconfig` file
 
-## Next
+## 1.0.0
 
 * Remove all trailing whitespace
 * Update dev dependencies
