@@ -32,3 +32,7 @@ First published to NPM
 ## 0.1.3
 
 * Added `editorconfig` file
+
+## Next
+
+* Remove all trailing whitespace

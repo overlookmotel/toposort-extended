@@ -20,19 +20,19 @@ describe('toposort', function() {
 			['Ingredient', 'Shop'],
 			['Food', 'Ingredient']
 		]);
-		
+
 		expect(sorted).to.deep.equal(['Food', 'Ingredient', 'Shop']);
 	});
-	
+
 	it('sorts objects', function() {
 		var sorted = toposort([
 			[ { table: 'Ingredient' }, { table: 'Shop' } ],
 			[ { table: 'Food' }, { table: 'Ingredient' } ]
 		]);
-		
+
 		expect(sorted).to.deep.equal([ { table: 'Food' }, { table: 'Ingredient' }, { table: 'Shop' } ]);
 	});
-	
+
 	it('throws error on cyclic dependency', function() {
 		expect(function() {
 			toposort([
@@ -50,19 +50,19 @@ describe('toposort.dependents', function() {
 			['Ingredient', 'Shop'],
 			['Food', 'Ingredient']
 		]);
-		
+
 		expect(sorted).to.deep.equal(['Food', 'Ingredient']);
 	});
-	
+
 	it('sorts objects', function() {
 		var sorted = toposort.dependents([
 			[ { table: 'Ingredient' }, { table: 'Shop' } ],
 			[ { table: 'Food' }, { table: 'Ingredient' } ]
 		]);
-		
+
 		expect(sorted).to.deep.equal([ { table: 'Food' }, { table: 'Ingredient' } ]);
 	});
-	
+
 	it('throws error on cyclic dependency', function() {
 		expect(function() {
 			toposort.dependents([
