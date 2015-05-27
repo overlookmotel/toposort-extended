@@ -10,6 +10,7 @@ An extension of [toposort](https://github.com/marcelklehr/toposort) where the in
 
 [![Build Status](https://secure.travis-ci.org/overlookmotel/toposort-extended.png?branch=master)](http://travis-ci.org/overlookmotel/toposort-extended)
 [![Dependency Status](https://david-dm.org/overlookmotel/toposort-extended.png)](https://david-dm.org/overlookmotel/toposort-extended)
+[![Coverage Status](https://img.shields.io/coveralls/overlookmotel/toposort-extended/master.svg)](https://coveralls.io/r/overlookmotel/toposort-extended)
 
 API is stable and tests cover all options. No known issues.
 
@@ -49,7 +50,7 @@ See changelog.md
 
 ## Tests
 
-Use `npm test` to run the tests.
+Use `npm test` to run the tests. Use `npm run cover` to check coverage.
 
 ## Issues
 
