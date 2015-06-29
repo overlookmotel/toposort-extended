@@ -46,6 +46,6 @@ First published to NPM
 * Update README badges to use shields.io
 * README contribution section
 
-## Next
+## 1.0.1
 
 * Errors include stack trace
