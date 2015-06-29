@@ -45,3 +45,7 @@ First published to NPM
 * README code examples tagged as Javascript
 * Update README badges to use shields.io
 * README contribution section
+
+## Next
+
+* Errors include stack trace
