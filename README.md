@@ -1,5 +1,7 @@
 # toposort-extended.js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/overlookmotel/toposort-extended.svg)](https://greenkeeper.io/)
+
 # toposort with objects
 
 ## What it does
